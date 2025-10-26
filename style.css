@@ -51,9 +51,6 @@ nav a{
 nav a:hover{
     color: #2e8c06;
 }
-nav a:visited{
-    color: #74a65b;
-}
 nav a:active{
     color: #9ed397;
 }
@@ -61,7 +58,7 @@ section{
     flex:1;
     padding:1rem;
     background: white;
-    background: url(https://ecologytraining.co.uk/wp-content/uploads/2021/07/Birds-for-Beginners.jpg);
+    background: url(https://hips.hearstapps.com/hmg-prod/images/close-up-of-robin-bird-perched-on-a-stone-in-the-royalty-free-image-1755050541.pjpeg?crop=0.702xw:1.00xh;0.214xw,0&resize=980:*);
     background-size: cover;
     background-repeat: no-repeat;
 }

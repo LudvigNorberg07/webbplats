@@ -32,6 +32,13 @@ header{
 header a{
     font-size: 2rem;
     text-decoration: none;
+    color: #0f0462;
+}
+header a:hover{
+    color: #1c3eae;
+}
+header a:active{
+    color: #a3b4f5;
 }
 footer{
     height:2rem;
