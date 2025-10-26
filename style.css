@@ -11,32 +11,57 @@
     box-sizing:border-box;
 }
 body{
+    height:100dvh;
+    width: 100%;
+    display:flex;
+    flex-direction: column;
     background: var(--secondary);
 }
 header{
     height:5rem;
     font-size: 3rem;
+    font-family: sans-serif;
     display:grid;
     align-items: center;
     padding-left:1rem;
     background: var(--primary);
 }
 .main{
-    height:100dvh;
-    flex-grow:5;
     width:100%;
+    flex:1;
     display:flex;
 }
 footer{
     height: 2rem;
     background: var(--accent);
+    display:grid;
+    place-content: center;
 }
 nav{
     display: flex;
     flex-direction: column;
     padding-left: 1rem;
     padding-top:1rem;
+    width:15rem;
 }
 nav a{
     text-decoration: none;  
+    color:#114200
+}
+nav a:hover{
+    color: #2e8c06;
+}
+nav a:visited{
+    color: #74a65b;
+}
+nav a:active{
+    color: #9ed397;
+}
+section{
+    flex:1;
+    padding:1rem;
+    background: white;
+    background: url(https://ecologytraining.co.uk/wp-content/uploads/2021/07/Birds-for-Beginners.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }

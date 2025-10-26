@@ -17,7 +17,8 @@
             <a href="contact.html">Kontakt</a><br>
             <a href="about.html">Om oss</a><br>
         </nav>
-        <section>Bildspel</section>
+        <section>
+        </section>
     </div>
 
     <footer>&copy;Föreningen för Fågelskådning i Falsterbo</footer>
