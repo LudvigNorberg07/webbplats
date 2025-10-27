@@ -13,7 +13,7 @@
         <nav>
             <a href="birds.html">Fåglar i Falsterbo</a><br>
             <a href="facts.html">Fakta om fåglar och fågelskådning</a><br>
-            <a href="join.html">Gå med i föreningen</a><br>
+            <a href="join.php">Gå med i föreningen</a><br>
             <a href="about.html">Om oss</a><br>
         </nav>
         <section>

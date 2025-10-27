@@ -54,7 +54,7 @@ footer{
     gap:1rem;
     padding:1rem;
 }
-.facts{
+.info{
     flex:1;
     display:flex;
     flex-direction: column;
@@ -64,15 +64,11 @@ footer{
     border-radius: 1rem;
     font-size: 1.05rem;
 }
-@media (max-width:1000px){
-    .main{
-        flex-direction: column;
-    }
-
+ul{
+    margin-left: 1.5rem;
+    margin-top:1rem;
+    margin-bottom: 1rem;
 }
-@media (max-width:600px){
-    header{
-        font-size:2rem;
-        padding-left:0.5rem;
-    }
+h2{
+    margin-top:1rem;
 }

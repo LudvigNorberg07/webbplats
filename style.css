@@ -54,11 +54,42 @@ nav a:hover{
 nav a:active{
     color: #9ed397;
 }
-section{
+section {
     flex:1;
     padding:1rem;
-    background: white;
-    background: url(https://hips.hearstapps.com/hmg-prod/images/close-up-of-robin-bird-perched-on-a-stone-in-the-royalty-free-image-1755050541.pjpeg?crop=0.702xw:1.00xh;0.214xw,0&resize=980:*);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background: url('https://hips.hearstapps.com/hmg-prod/images/close-up-of-robin-bird-perched-on-a-stone-in-the-royalty-free-image-1755050541.pjpeg?crop=0.702xw:1.00xh;0.214xw,0&resize=980:*');
+    background-size:cover;;
+    background-repeat:no-repeat;
+}
+
+@media (max-width:1000px){
+    header{
+        font-size:2rem;
+    }
+    section{
+        background: url('https://hips.hearstapps.com/hmg-prod/images/close-up-of-robin-bird-perched-on-a-stone-in-the-royalty-free-image-1755050541.pjpeg?crop=0.702xw:1.00xh;0.214xw,0&resize=980:*');
+        background-size:cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+@media (max-width: 600px) { 
+    .main section {
+        display:none;
+    }
+    nav{
+        width:100%;
+        padding:0.5rem 1rem;
+    }
+    nav a{
+        font-size:1.2rem;
+        padding:0.5rem;
+        border-bottom:1px solid #e7f7de;
+    }
+    header{
+        font-size:1.6rem;
+        text-align:center;
+        padding-left:0;
+        height:3.6rem;
+    }
 }
